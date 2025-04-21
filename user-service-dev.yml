@@ -7,29 +7,5 @@ spring:
     # password: '{cipher}33a94fb73849f169fafcb1a6a896c322eedbc83689a1342690698a7d6bbace38'
     # password: '{cipher}AQB1gkgCTbdqW2MQjLJcTm/wKDw3gTredU/TDGFobX/qBwFm+cLTdoSTzuzLjAgqVegGgYOzIbGzGzvLzCEI1bFHIwA3coRpTyIcwPlYxsqIDjWO4+4/QOfalenj6bmFhxlJg5c7FEeSqFmiDYnOlgZvkqw0QBWkmlI0TH4SitBojoX/R5T95d1Ew6owXdQ6BFPSsd0jOpQBr7exUosXxhHnj8VAsY6dVdKSw3QfuYqGW3LyLbdz/Aq9X+sPuVxt6OuyiRenIOJIrmYRzkIChGA5+9eJ1sib2a05sGG4UE1Ab1Seqgm5/oeLaUBMkyW+THw99wJXdLhMjvpzNrAH0BSgyQ7eNZfaFiJkJx2yxixC+1fPMCkCPvFvqsxyzOFjtwM='
 
-
-# gateway: 
-#   ip: 192.168.0.8
-
-# server:
-  # port: 0 # Random Port
-
-# spring:
-#   application:
-#     name: user-service
-#   h2:
-#     console:
-#       enabled: true
-#       settings:
-#         web-allow-others: true
-#       path: /h2-console
-#   datasource:
-#     url: jdbc:h2:file:./data/demo-db
-#     driver-class-name: org.h2.Driver
-#     username: sa
-#     password:
-#   jpa:
-#     hibernate:
-#       ddl-auto: update
-
-
+order_service: 
+  url: http://127.0.0.1:8000/order-service/$s/orders
