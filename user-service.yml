@@ -1,6 +1,7 @@
 
 token:
-  expiration_time: 864000000 # 10days
+  # expiration_time: 864000000 # 10days
+  expiration_time: 1000 # 10days
   secret: user_token_user_token_user_token_user_token_user_token_user_token
 
 # gateway: 
