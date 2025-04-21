@@ -1,0 +1,11 @@
+encrypt:
+  #  key: asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfas
+  key-store:
+    location: file://${user.home}/codes/00-msa/spring-cloud-msa/keystore/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
+
+
+token:
+  expiration_time: 864000000 # 10days
+  secret: user_token_user_token_user_token_user_token_user_token_user_token_#2
