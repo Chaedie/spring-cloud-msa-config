@@ -8,4 +8,4 @@ spring:
     # password: '{cipher}AQB1gkgCTbdqW2MQjLJcTm/wKDw3gTredU/TDGFobX/qBwFm+cLTdoSTzuzLjAgqVegGgYOzIbGzGzvLzCEI1bFHIwA3coRpTyIcwPlYxsqIDjWO4+4/QOfalenj6bmFhxlJg5c7FEeSqFmiDYnOlgZvkqw0QBWkmlI0TH4SitBojoX/R5T95d1Ew6owXdQ6BFPSsd0jOpQBr7exUosXxhHnj8VAsY6dVdKSw3QfuYqGW3LyLbdz/Aq9X+sPuVxt6OuyiRenIOJIrmYRzkIChGA5+9eJ1sib2a05sGG4UE1Ab1Seqgm5/oeLaUBMkyW+THw99wJXdLhMjvpzNrAH0BSgyQ7eNZfaFiJkJx2yxixC+1fPMCkCPvFvqsxyzOFjtwM='
 
 order_service: 
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://order-service/order-service/%s/orders
